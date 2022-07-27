@@ -1,0 +1,138 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="main" id="mains">
+      <div id="nav">
+        <div class="nav-center">
+          <div class="logo-link">
+            <div class="nav-logo">
+              <img src="./images/logo.svg" alt="" />
+            </div>
+
+            <div class="links-container">
+              <ul class="links">
+                <li><a href="#collection" class="link">collections</a></li>
+                <li><a href="men" class="link">men</a></li>
+                <li><a href="women" class="link">women</a></li>
+                <li><a href="about" class="link">about</a></li>
+                <li><a href="contact" class="link">contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="nav-toggle">
+            <img src="./images/icon-menu.svg" alt="" />
+          </div>
+
+          <div class="cart-img">
+            <div class="all-cart">
+              <div class="cart-icon">0</div>
+              <div class="cart">
+                <img src="./images/icon-cart.svg" alt="" />
+              </div>
+            </div>
+            <div class="avatar-img">
+              <img src="./images/image-avatar.png" id="person-img" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="empty">
+        <h4 class="cart-stat">cart</h4>
+        <div class="status"><span>Your cart is empty.</span></div>
+      </div>
+
+      <div class="filled">
+        <h4 class="cart-stat">cart</h4>
+        <div class="status-2">
+          <div class="status-details">
+            <img
+              src="./images/image-product-1-thumbnail.jpg"
+              class="status-img"
+              alt="status image"
+            />
+            <article class="status-desc">
+              <div>fall limited edition sneakers</div>
+              $125.00*3
+              <strong>$375.00</strong>
+            </article>
+            <img src="./images/icon-delete.svg" alt="" />
+          </div>
+          <button class="status-btn">Checkout</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="banner">
+      <div class="product-cont">
+        <div class="image-container">
+          <img src="./images/icon-previous.svg" id="prev" alt="" />
+          <img src="./images/image-product-1.jpg" id="img-product" alt="" />
+          <img src="./images/icon-next.svg" alt="" id="next" />
+        </div>
+
+        <div class="thumb-nails">
+          <img src="./images/image-product-1-thumbnail.jpg" id="first" alt="" />
+          <img
+            src="./images/image-product-2-thumbnail.jpg"
+            id="second"
+            alt=""
+          />
+          <img src="./images/image-product-3-thumbnail.jpg" id="third" alt="" />
+          <img
+            src="./images/image-product-4-thumbnail.jpg"
+            id="fourth"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="product-desc">
+        <div class="head">sneaker company</div>
+        <h2>
+          fall limited edition <br />
+          sneakers
+        </h2>
+        <p>
+          These low-profile sneakers are your perfect casual wear companion.
+          Featuring a durable rubber outer sole, they'll withstand everything
+          the weather can offer.
+        </p>
+        <div class="tag">
+          <div class="price">
+            <span class="normal">$125.00</span>
+            <span class="discount">50%</span>
+          </div>
+          <span class="full">$250.00</span>
+        </div>
+
+        <div class="counter-cart">
+          <div class="counter">
+            <img src="./images/icon-minus.svg" id="minus" alt="" />
+            <span class="value">0</span>
+            <img src="./images/icon-plus.svg" id="plus" alt="" />
+          </div>
+
+          <button class="cart-btn">
+            <img src="./images/icon-cart.svg" alt="" />
+            <span>add to cart</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+    <script src="work.js"></script>
+  </body>
+</html>
